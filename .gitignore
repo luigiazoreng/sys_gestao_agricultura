@@ -1,1 +1,6 @@
 gestao_agricultura_proj/node_modules
+gestao_agricultura_proj/db.sqlite3
+gestao_agricultura_proj/frontend/node_modules
+gestao_agricultura_proj/frontend/__pycache__
+gestao_agricultura_proj/__pycache__
+gestao_agricultura_proj/api/__pycache__
