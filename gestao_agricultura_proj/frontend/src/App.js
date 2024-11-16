@@ -3,15 +3,17 @@ import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import LoginPage from "./pages/Login";
 import HomePage from "./pages/Home";
-import NavBar from "./components/navBar/NavBar";
+import NavBar from "./components/navBar";
 export default class App extends Component {
   constructor(props) {
     super(props);
   }
+
+
   render() {
     return (
       <Router>
-        <NavBar />
+        <NavBar /> 
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
